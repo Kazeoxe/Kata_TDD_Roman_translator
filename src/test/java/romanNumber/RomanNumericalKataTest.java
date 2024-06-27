@@ -12,4 +12,9 @@ public class RomanNumericalKataTest {
        assertEquals(result, 1);
     }
     
+    @Test
+    void romanNumeralizeShouldRetrunValidForII() {
+       var result = RomanNumericalKata.romanNumberalize("II");
+       assertEquals(result, 2);
+    }
 }
